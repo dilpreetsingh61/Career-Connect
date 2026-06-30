@@ -11,6 +11,7 @@
     "start:frontend": "vite",
     "start:backend": "npm start --prefix server",
     "build": "vite build",
+    "vercel-build": "npm install --prefix server && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
